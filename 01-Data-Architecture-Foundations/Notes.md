@@ -81,6 +81,14 @@
 * Crow's Foot notation is one of the notation methods commonly used to denote cardinality in an ERD
 [[Add crow's foot notation example]]
 
+*Physical ERDs*
+* Building out physical ERDs is the last step in ERD development. This is usually done after the DBMS has been decided on, allowing for the correct data types to be selected. Although, it could be done beforehand using generic data types.
+* The main points to remeber here are:
+  * Add data types
+  * Use computer-friendly labels
+  * Add cardinality notation
+  * Follow ERDs best practices 
+
 
 
 
