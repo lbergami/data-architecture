@@ -101,11 +101,12 @@
   *  Insufficient hardware
   *  Poor network performance
 * *Cache* and *Indexing* can improve database performance
- * Cache is a place to store commonly used data in high-performance memory so the futire queries for the data can run faster. There are three types of cache: internal, external, and enterprise cache.
- * Indexin id creating a lookup table for a databse. It is specifically tuned to search for specific information in a table. 
+  * Cache is a place to store commonly used data in high-performance memory so the futire queries for the data can run faster. There are three types of cache: internal, external, and enterprise cache.
+  * Index is creating a lookup table for a databse. It is specifically tuned to search for specific information in a table. 
 
-
-
+*DDL to create a database*
+* Data Definition Language (DDL), is a subset of SQL commands used to *create*, *modify* and *delete* database objects. In PostgreSQL, the most commonly used DDL commands are *create*, *alter*, *drop*
+* *SERIAL* is a special data type. This is an auto-incrementing integer: it starts counting at 1 and it continues up for each row you add to the table. It is used for creating unique IDs.
 
 
 
