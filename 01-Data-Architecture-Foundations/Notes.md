@@ -62,8 +62,7 @@
     * It has to uniquely identify each row
     * It cannot be a NULL value
     * It can be numbers, letters oir both
-   * FK is a correspnding column in a table that *references* a PK from another table. **The PK-FK establish the relationship between two or more entities**.
-   * The main rules of foreign key are:
+  * FK is a correspnding column in a table that *references* a PK from another table. **The PK-FK establish the relationship between two or more entities**. The main rules of foreign key are:
     * It must correspond to PK in another table
     * It cannot be a NULL 
     * PK-FK pair defines the relationship between tables
