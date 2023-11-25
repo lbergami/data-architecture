@@ -34,7 +34,6 @@
   *  Data need to be in 2NF:
      *  Entity (table in 1NF)
      *  Ensure Data Integrity, through the use of unique IDs: all columns depend on the unique ID. This means to identify dependent columns which need to be brought out in a new table
-  * Entity (table in 1NF)
   * Remove **transitive** dependencies among attributes through new entities tables
 
 <p> <br>
