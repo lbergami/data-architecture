@@ -1,8 +1,6 @@
 
 # Database Framework 
 
-<p> <br>
-
 | Term | Definition |
 | -------- | ------- |
 | Relational DB | A structured DB that is designed to operate based on the relationships between database objects |
@@ -58,7 +56,22 @@
   * Connect entities with a relationship line
   [[Add conceptual ERDs example]] 
 
-
+*Logical ERDs with PK-FK*
+* Logical ERD adds *attributes* to the conceptual one and fine-tune *relationship* lines, introducing the concept of *primary (PK)* and *foreign (FK) keys*:
+  * PK is a columns or a set of columns (combined primary key) in a table that uniquely identifies each row in the table. The main rules of primary key are:
+    * It has to uniquely identify each row
+    * It cannot be a NULL value
+    * It can be numbers, letters oir both
+   * FK is a correspnding column in a table that *references* a PK from another table. **The PK-FK establish the relationship between two or more entities**.
+   * The main rules of foreign key are:
+    * It must correspond to PK in another table
+    * It cannot be a NULL 
+    * PK-FK pair defines the relationship between tables
+* A logical ERD is built following the following steps:
+  * Take the conceptual ERD
+  * Identify attributes
+  * Identify PK and FK
+  * Draw relationships among entities using PK-FK pairs   
 
 
 
