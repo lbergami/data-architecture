@@ -89,9 +89,20 @@
   * Add cardinality notation
   * Follow ERDs best practices 
 
+<p> <br>
 
+# Creating a physical database schema 
 
-
+*Databse performances*
+* Important distinction: DB Vs DBMS - A *database* is the set of data held in a defined structure in a computer, while a DBSM - database management system - is the software used to access the database.
+* There are many factors that can harm a databse:
+  *  Massive amount of data
+  *  Complex queries (incl. complex joins) - argument in favour of denormalized data 
+  *  Insufficient hardware
+  *  Poor network performance
+* *Cache* and *Indexing* can improve database performance
+ * Cache is a place to store commonly used data in high-performance memory so the futire queries for the data can run faster. There are three types of cache: internal, external, and enterprise cache.
+ * Indexin id creating a lookup table for a databse. It is specifically tuned to search for specific information in a table. 
 
 
 
