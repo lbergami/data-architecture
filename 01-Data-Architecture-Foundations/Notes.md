@@ -38,9 +38,25 @@
      *  Ensure Data Integrity, through the use of unique IDs: all columns depend on the unique ID. This means to identify dependent columns which need to be brought out in a new table
   * Entity (table in 1NF)
   * Remove **transitive** dependencies among attributes through new entities tables
-  
+
+<p> <br>
+
 # Relational Data Design 
- 
+
+**Entity Relationship Diagram (ERD)** 
+* Industry standard for DB design and diagramming. It incorporates all the data modelling elements such as entities, attributes, and relationships.
+* The three most common levels of relational modelling are conceptual, logical, and physical.
+
+*Conceptual ERDs*
+* Conceptual ERDs are often a first pass, and the relationships between entitites are not fully defined. It is common to have to return to your conceptual model to adjust relationships as the model is more fully fleshed out.
+* The conceptual model simply has the entities and lines indicating their relationship paths.
+* You can follow these steps to build a conceptual ERDs:
+  * Determine the type of database to be designed (OLTP Vs OLAP)
+  * Evaulate data (if provided)
+  * Put data into 3NF (if required)
+  * Place entites on the diagram
+  * Connect entities with a relationship line
+  [[Add conceptual ERDs example]] 
 
 
 
