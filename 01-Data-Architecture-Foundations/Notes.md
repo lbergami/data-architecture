@@ -64,15 +64,23 @@
     * It can be numbers, letters oir both
   * FK is a correspnding column in a table that *references* a PK from another table. **The PK-FK establish the relationship between two or more entities**. The main rules of foreign key are:
     * It must correspond to PK in another table
-    * It cannot be a NULL 
+    * It can be a NULL 
     * PK-FK pair defines the relationship between tables
 * A logical ERD is built following the following steps:
   * Take the conceptual ERD
   * Identify attributes
   * Identify PK and FK
-  * Draw relationships among entities using PK-FK pairs   
+  * Draw relationships among entities using PK-FK pairs
+  [[Add logical ERDs example]] 
 
-
+*Cardinality and Crow's Foot Notation*
+* Cardinality defines the relationship of a data element in one entity with respect to that same element in another entity. Namely, it refers to how oftern the data element appears in the two entities.
+* Cardinality can take the following values:
+  *  one to one (one to zero)
+  *  one to many (one to zero; one to one or many)
+  *  many to many
+* Crow's Foot notation is one of the notation methods commonly used to denote cardinality in an ERD
+[[Add crow's foot notation example]]
 
 
 
