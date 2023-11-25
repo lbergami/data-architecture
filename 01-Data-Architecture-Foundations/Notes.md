@@ -3,8 +3,6 @@
 
 <p> <br>
 
-## General concepts 
-
 | Term | Definition |
 | -------- | ------- |
 | Relational DB | A structured DB that is designed to operate based on the relationships between database objects |
