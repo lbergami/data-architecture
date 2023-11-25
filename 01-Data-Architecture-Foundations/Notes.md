@@ -29,13 +29,13 @@
 * Normalizing data to the *3rd Normal Form (3NF)* is the most common normalization form when working with transactional data.
 * To get to data normalized to the 3NF, the steps are:
   *  Data need to be in 1NF:
-     * Use entities (tables)
-     * Each cell in an attribute (column) has an atomic value (a single value)
-     * No repeated groupings as attributes
-     * No duplicate rows 
+     *  Use entities (tables)
+     *  Each cell in an attribute (column) has an atomic value (a single value)
+     *  No repeated groupings as attributes
+     *  No duplicate rows 
   *  Data need to be in 2NF:
-     * Entity (table in 1NF)
-     * Ensure Data Integrity, through the use of unique IDs: all columns depend on the unique ID. This means to identify dependent columns which need to be brought out in a new table
+     *  Entity (table in 1NF)
+     *  Ensure Data Integrity, through the use of unique IDs: all columns depend on the unique ID. This means to identify dependent columns which need to be brought out in a new table
   * Entity (table in 1NF)
   * Remove **transitive** dependencies among attributes through new entities tables
   
