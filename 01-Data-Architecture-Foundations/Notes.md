@@ -23,7 +23,7 @@
 
 **Normalization**
 * Data normalization is a method of **reorganizing data** for use in a relational database.
-* It is the most preferred choice fro transactional-based work, given that increased writing speed and saves memory, enforcing data ointegrity.
+* It is the most preferred choice fro transactional-based work, given that increases writing speed and saves memory, enforcing data integrity. The downside of normalized data is that they are not easy to read and they may require significant work to answer to simple queries.
 * Normalizing data to the *3rd Normal Form (3NF)* is the most common normalization form when working with transactional data.
 * To get to data normalized to the 3NF, the steps are:
   *  Data need to be in 1NF:
