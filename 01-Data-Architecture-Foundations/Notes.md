@@ -36,6 +36,9 @@
      *  Ensure Data Integrity, through the use of unique IDs: all columns depend on the unique ID. This means to identify dependent columns which need to be brought out in a new table
   * Remove **transitive** dependencies among attributes through new entities tables
 
+**Example of a normalization to the third form**
+![GitHub Logo](img/Normalization_to_3NL.PNG)
+
 <p> <br>
 
 # Relational Data Design 
