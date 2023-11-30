@@ -53,7 +53,7 @@
   * Put data into 3NF (if required)
   * Place entites on the diagram
   * Connect entities with a relationship line
-  [[Add conceptual ERDs example]] 
+  ![GitHub Logo](img/conceptual_ERD.PNG)
 
 *Logical ERDs with PK-FK*
 * Logical ERD adds *attributes* to the conceptual one and fine-tune *relationship* lines, introducing the concept of *primary (PK)* and *foreign (FK) keys*:
