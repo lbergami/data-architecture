@@ -71,7 +71,8 @@
   * Identify attributes
   * Identify PK and FK
   * Draw relationships among entities using PK-FK pairs
-  [[Add logical ERDs example]] 
+
+![GitHub Logo](img/logical_ERD.PNG)
 
 *Cardinality and Crow's Foot Notation*
 * Cardinality defines the relationship of a data element in one entity with respect to that same element in another entity. Namely, it refers to how oftern the data element appears in the two entities.
