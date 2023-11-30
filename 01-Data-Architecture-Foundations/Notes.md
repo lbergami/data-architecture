@@ -37,6 +37,7 @@
   * Remove **transitive** dependencies among attributes through new entities tables
 
 **Example of a normalization to the third form**
+
 ![GitHub Logo](img/Normalization_to_3NL.PNG)
 
 <p> <br>
