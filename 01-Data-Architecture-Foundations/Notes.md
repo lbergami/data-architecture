@@ -94,7 +94,9 @@
   * Add data types
   * Use computer-friendly labels
   * Add cardinality notation
-  * Follow ERDs best practices 
+  * Follow ERDs best practices
+
+![GitHub Logo](img/physical_ERD.PNG)
 
 <p> <br>
 
